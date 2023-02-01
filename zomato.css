@@ -11,7 +11,7 @@ html,body{
     height: 60vh;
     width: 100%;
     background-color: rgb(2, 43, 29);
-    background-image: url("./images/pexels-chan-walrus-958545.jpg");
+    background-image: url("./pexels-chan-walrus-958545.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
