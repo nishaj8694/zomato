@@ -1,0 +1,244 @@
+
+html,body{
+    padding: 0;
+    margin:0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.hed{
+    position: static;
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(2, 43, 29);
+    background-image: url("./images/pexels-chan-walrus-958545.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.hed1{
+    height: 7vh;
+    width: 100%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px 100px 0px 200px; 
+    display: flex;
+ 
+}
+.b1{
+    flex-grow: 1;
+    padding-top: 15px;
+    /* padding-right: 400px; */
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-right: 400px;
+}
+a{
+    display: inline;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: larger;
+}
+.hed2>h1,.hed2>p{
+    font-size:x-large;
+    color: rgb(178, 167, 167);
+    margin: 0;
+
+}
+.hed1>a{
+    padding-top: 15px;
+}
+.hed2>h1{
+    font-size: 100px ;
+}
+.hed2>select{
+    width: 10rem;
+    height: 2rem;
+    outline: none; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 0px;
+    border-right: none;
+    padding-left: 10px;
+    border: none;
+    border-style: none;
+    
+}
+.hed2>select:focus-within{
+    border: none;
+
+}
+.hed2>input[type="text"]{
+    width: 20rem;
+    height: 2rem;
+    outline:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -5px;
+    border-left: none;
+    padding-left: 20px;
+    border: none;
+}
+.bod1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content:center;
+    gap: 3rem;
+    padding: 5rem;
+}
+.nm{
+    width: 35rem;
+    height: 17rem;
+    border-radius: 15px;
+    border: .5px solid rgb(9, 7, 7,0.4);
+}
+ .nm>img{
+    width: 100%;
+    background-size:auto;
+    background-position: center;
+    height: 13rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.nm:hover{
+    transition: all 3s;
+    transform: scale(1.1,1.1);
+}
+.nm>h2,.nm>p{
+    margin: 0;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.bod2{
+    margin-left: 180px;
+    width: 80%;
+    /* display: grid; */
+    /* grid-template-rows: 2,100%; */
+    /* grid-template-columns: repeat(2,1fr); */
+    /* justify-content: flex-start; */
+    /* gap:5px; */
+}
+.egg0{
+    /* grid-row: 1; */
+}
+.egg{
+    width: 250px;
+    height: 250px;   
+}
+.n1{
+    display: inline-block;
+    background-image: url("images/egg.jpg");
+    background-size: cover;
+}
+.n2{
+    display: inline-block;
+    background-image: url("images/bryn.jpg");
+    background-size: cover;
+}
+.bod3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+.gr{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(3,380px);
+    justify-content: center;
+}
+.gridex{
+    gap: 5px;
+    border: 1px solid rgb(11, 10, 10,0.4);
+    border-radius: 10px;
+    justify-content: left;
+    padding-left: 15px;
+
+}
+.gridex>p:first-child{
+    font-size: larger;
+}
+.bod4{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.bod4in1{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-items: flex-start;
+}
+.in11{
+    width: 250px;
+    height: 500px;
+    position: relative;
+}
+.in11>img{
+    width: 250px;
+    height: 350px;
+}
+#mob{
+    position: absolute;
+    top: 100px;
+    left: -40px;
+}
+#mob1{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+.in12{
+    margin-left: 30px;
+    font-size: large;
+    width:500px ;  
+    height: 400x;
+
+    padding-top: 100px;
+}
+.in12>img{
+    background-size: cover;
+    width:100px;
+    height: 50px;
+}
+#tx{
+    height: 30px;
+    border: none;
+    outline: none;
+}
+#sb{
+    padding-top: 10px;
+    height: 30px;
+}
+.in12>input{
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.foot{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot>table>thead>tr>th{
+    width: 250px;
+    margin: 10px 30px 5px 30px;
+    
+}
+.foot>table>tbody>tr>td{
+    width: 250px;
+    margin: 10px 30px 5px 30px;
+    padding-left: 170px;
+
+}
+
